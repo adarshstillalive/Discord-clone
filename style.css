@@ -1,0 +1,365 @@
+.body-home{
+  height:90vh;
+  background-color:rgb(67, 82, 250);
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  background-color:rgb(67, 82, 250);
+  margin-left:7vh;
+  margin-right:7vh;
+  font-family: 'ggsanssemibold';
+  height:80px;
+}
+.navbar div{
+  width:124px;
+  text-align: end;
+}
+.navbar-nav li a{
+  color:white;
+  padding:10px;
+  margin:0px 10px;
+}
+.navbar-nav li a:hover{
+  text-decoration:underline;
+  color:white;
+}
+.navbar img{
+  width:124px;
+}
+.loginbutton button{
+  padding: 7px 16px;
+  border:none;
+  background-color:white;
+  border-radius:30px;
+  transition:0.2s;
+  
+}
+.loginbutton button:hover{
+  color:rgb(88,101,242);
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+.loginbutton{
+  align-items: end;
+}
+.navbar-toggler{
+  border:none;
+  color:white;
+}
+#headdiv{
+  height:60vh;
+  margin-top:15vh;
+  margin-left:7vh;
+  margin-right:7vh;
+  padding:20px 0px 160px;
+}
+.headdiv1{
+  margin:0 12vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*.contenthead{
+  background-image:url('images/section1left.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:left;
+  z-index: 5;
+}*/
+.detailhead{
+  position: relative;
+  
+}
+
+.detailhead h1{
+  color:white;
+  font-family:ABCgintonord; 
+  font-size:8vh;
+  text-align: center;
+  margin:0 0 24px;
+}
+.detailpara p{
+  font-family:ggsansnormal;
+  color:white;
+  font-size:2.8vh;
+  margin:0 10px;
+  text-align: center;
+}
+.buttonhead{
+  height:80px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.buttonhead a{
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.buttonhead button{
+  padding:16px 32px;
+  background-color:white;
+  font-family:ggsansmedium;
+  font-size:2.8vh;
+  border-radius:5vh;
+  border:none;
+  height:56px;
+  text-align: center;
+}
+.buttonheader .btn-primary{
+  border-radius:10vh;
+  background-color: white;
+  color:black;
+  font-family:ggsansmedium;
+  padding:16px 32px;
+}
+.buttonheader .btn-secondary{
+  border-radius:10vh;
+  background-color:rgb(35,39,42);
+  color:white;
+  font-family:ggsansmedium;
+  padding:16px 32px;
+}
+.buttonheader .btn-primary:hover{
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  color:rgb(67, 82, 250);
+}
+.buttonheader .btn-secondary:hover{
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  background-color:rgb(45, 44, 44);
+}
+.buttonheader{
+  margin-top:5vh;
+}
+.buttonhead button img{
+  width:3.5vh;
+}
+a .opendiscord{
+  background-color:rgb(35,39,42);
+  color:white;
+}
+#section2{
+  margin-top: 20vh;
+  
+}
+#section3{
+  margin-top: 25vh;
+  background-color: #ededed;
+}
+#section4{
+  margin-top: 30vh;
+}
+#section5{
+  margin-top:15vh;
+  padding-top:20vh;
+  background-color: #ededed;
+}
+#footer{
+  background-color: #23272A;
+  padding-top:10vh;
+  border-bottom:1px solid rgb(67, 82, 250);
+}
+#footer2{
+  background-color: #23272A;
+  height:20vh
+}
+#footer2 .col img{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-top: 10vh;
+}
+#footer2 .col .loginbutton{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 10vh;
+}
+#section2 .para-and-h{
+  margin-top: 5vh;
+}
+#section3 .para-and-h{
+  margin-top: 10vh;
+}
+#section4 .para-and-h{
+  margin-top: 12vh;
+}
+#section5 .para-and-h h3{
+  margin-bottom: 3vh;
+}
+#section5 .para-and-h p{
+  background-color: #ededed;
+}
+#section5 .divheader h3{
+  font-family:ABCgintonord;
+  font-size:5.5vh;
+  text-align: center;
+}
+.bottomdiv-1{
+  margin-top:15vh;
+}
+.bottomdiv-2{
+  margin-top:5vh;
+}
+.containerdiv{
+  display:flex;
+  justify-content: left;
+}
+.rightdiv{
+  padding:70px 120px 100px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.divheader h3{
+  font-family:ggsansbold;
+  font-size:6.5vh;
+}
+.divpara p{
+  font-size:2.8vh;
+  background-color: rgb(213, 213, 213);
+}
+.section3{
+  background-color: rgb(248, 248, 248);
+}
+#section5{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20vh;
+}
+.topdiv .divheader h3{
+  font-family:ABCgintonord;
+  font-size:5.5vh;
+  text-align: center;
+}
+.topdiv{
+  width:auto;
+}
+.topdiv .divpara p{
+  font-size:2.8vh;
+  background-color: rgb(213, 213, 213);
+  text-align: center;
+  margin-left:22vh;
+  margin-right:22vh;
+}
+.middlediv{
+  width:auto;
+}
+.middlediv img{
+  width:100%;
+}
+.bottomdiv{
+  width:auto;
+  height:124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonhead{
+  height:80px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.bottomdiv-2 a{
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.bottomdiv-2 button{
+  padding:16px 32px;
+  background-color:rgb(67, 82, 250);
+  color:white;
+  font-family:ggsansmedium;
+  font-size:2.8vh;
+  border-radius:5vh;
+  border:none;
+  height:56px;
+  text-align: center;
+}
+.bottomdiv-2 button img{
+  width:3.5vh;
+}
+.bottomdiv-1 h2{
+  font-family:ggsansbold;
+  font-size:5vh;
+}
+footer{
+  padding:80px 0 64px;
+  background-color:#23272A;
+}
+.footer1{
+  
+  display:grid;
+  grid-template-columns:4fr 2fr 2fr 2fr 2fr;
+  border-bottom: 1px solid rgb(67, 82, 250);
+  padding-bottom: 10vh;
+}
+.footerdiv{
+  padding-left:22vh;
+  padding-right:22vh;
+}
+.footer1-1{
+  padding-left: 5vh;
+}
+.footer1-11{
+  height:18px;
+  width:190px;
+  margin:24px 0px;
+  text-align: left;
+  padding-left:2vh;
+}
+.footer1-11 img{
+  width:90px;
+  cursor: pointer;
+}
+.footer1-12{
+  display:flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items:center;
+  margin: 24px 0 0;
+  width: 240px;
+}
+.footer1-12 div{
+  flex:1;
+}
+.footer1-12 div img{
+  height:25px;
+  width:24px;
+  cursor: pointer;
+}
+.footer1-2{
+  margin-bottom: 5vh;
+}
+
+.footer1-2 div{
+  margin:0 0 20px;
+  color:rgb(67, 82, 250);
+  font-weight: 500;
+  font-family:ggsanssemibold;
+  text-align: left;
+}
+.footer1-2 a{
+  display:flex;
+  text-decoration: none;
+  color:white;
+  margin-top:8px;
+}
+.footer1-2 a:hover{
+  text-decoration: underline;
+}
+
+#footer2 img{
+  width:124px;
+  cursor: pointer;
+}
+#footer2 button{
+  background-color:rgb(67, 82, 250);
+  color:white;
+  font-family:ggsansbold;;
+}
+#footer2 button:hover{
+  background-color:rgb(91, 105, 252) ;
+  color:white;
+}

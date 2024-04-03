@@ -1,0 +1,48 @@
+
+
+    @font-face {
+    font-family: 'ggsansbold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Bold'), url('ggsans/gg\ sans\ Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'ggsansnormal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Normal Regular'), url('ggsans/gg\ sans\ Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'ggsansmedium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Medium Regular'), url('ggsans/gg\ sans\ Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'ggsanssemibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans SemiBold Regular'), url('ggsans/gg\ sans\ Semibold.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'ABCgintonord';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans SemiBold Regular'), url('ggsans/ABCgintonord.otf') format('woff');
+    }
+   
+    
+
+    body{
+        padding:0px;
+        margin:0px;
+        font-family:ggsansnormal;
+        
+    }

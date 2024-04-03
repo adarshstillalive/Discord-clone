@@ -1,0 +1,268 @@
+/*@media (max-width:992px){
+  .togdiv .navbar-toggler{
+    display: none;
+  }
+  
+  .headdiv1{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .detailhead h1{
+    text-align: left;
+    margin:0 0 24px;
+  }
+  .detailhead{
+    margin-left:7vh;
+  }
+  .detailhead p{
+    margin-left:10px;
+    text-align: left;
+    font-size:3.3vh;
+  }
+  .buttonhead{
+    height:80px;
+    
+    justify-content: left;
+    align-items: end;
+  }
+  .containerdiv{
+    flex-wrap: wrap;
+  }
+  .rightdiv{
+    padding:0px;
+    width:100vh;
+  }
+  .divheader h3{
+    font-size:4vh;
+  }
+  .divpara p{
+    font-size:2.6vh;
+    background-color:white;
+    color:rgb(95, 95, 95);
+    margin:24px 0 0;
+  }
+  .section3 .containerdiv{
+    flex-wrap:wrap-reverse;
+  }
+  #section5{
+    margin-left:10vh;
+  }
+  .topdiv .divheader h3{
+    font-family:ABCgintonord;
+    font-size:5.5vh;
+    text-align: center;
+  }
+  .topdiv{
+    width:auto;
+  }
+  .topdiv .divpara p{
+    font-size:2.8vh;
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+  }
+  .middlediv{
+    width:auto;
+  }
+  .middlediv img{
+    width:100%;
+  }
+  .bottomdiv{
+    height:124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttonhead{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .bottomdiv-2 a{
+    margin-top: 24px;
+    margin-right: 24px;
+  }
+  .bottomdiv-2 button{
+    padding:16px 32px;
+    background-color:rgb(67, 82, 250);
+    color:white;
+    font-family:ggsansmedium;
+    font-size:2.8vh;
+    border-radius:5vh;
+    border:none;
+    height:56px;
+    text-align: center;
+  }
+  .bottomdiv-2 button img{
+    width:3.5vh;
+  }
+  .bottomdiv-1 h2{
+    font-family:ggsansbold;
+    font-size:5vh;
+  }
+  .footerdiv{
+    padding-left:7vh;
+    padding-right:7vh;
+    width:130vh;
+  }
+  .footer1{
+  
+    display:grid;
+    grid-template-columns:3fr 2fr 2fr;
+    border-bottom: 1px solid rgb(67, 82, 250);
+    padding-bottom: 10vh;
+  }
+  .footer1-2{
+    padding-bottom:10vh;
+  }
+}
+
+
+@media (max-width:768px){
+  .detailhead h1{
+    text-align: left;
+    margin:0 0 24px;
+    font-size:4vh;
+  }
+  .detailhead{
+    margin-left:0vh;
+  }
+  .detailhead p{
+    text-align: left;
+    font-size:2.6vh;
+  }
+  .buttonhead{
+    height:80px;
+    
+    justify-content: left;
+    align-items: end;
+  }
+}
+@media (max-width:780px){
+  .buttonhead{
+    flex-wrap: wrap;
+  }
+  
+}
+@media (max-width:475px){
+  .headdiv1{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .detailhead h1{
+    text-align: left;
+    margin:0 0 24px;
+  }
+  .detailhead{
+    margin-left:7vh;
+  }
+  .detailhead p{
+    margin-left:10px;
+    text-align: left;
+    font-size:3.3vh;
+  }
+  .buttonhead{
+    height:80px;
+    
+    justify-content: left;
+    align-items: end;
+  }
+  .containerdiv{
+    flex-wrap: wrap;
+  }
+  .rightdiv{
+    padding:0px;
+    width:100vh;
+  }
+  .divheader h3{
+    font-size:4vh;
+  }
+  .divpara p{
+    font-size:2.6vh;
+    background-color:white;
+    color:rgb(95, 95, 95);
+    margin:24px 0 0;
+  }
+  .section3 .containerdiv{
+    flex-wrap:wrap-reverse;
+  }
+  #section5{
+    width:110vh;
+    margin-left:10vh;
+  }
+  .topdiv .divheader h3{
+    font-family:ABCgintonord;
+    font-size:5.5vh;
+    text-align: center;
+  }
+  .topdiv{
+    width:auto;
+  }
+  .topdiv .divpara p{
+    font-size:2.8vh;
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+  }
+  .middlediv{
+    width:auto;
+  }
+  .middlediv img{
+    width:100%;
+  }
+  .bottomdiv{
+    width:900px;
+    height:124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttonhead{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .bottomdiv-2 a{
+    margin-top: 24px;
+    margin-right: 24px;
+  }
+  .bottomdiv-2 button{
+    padding:16px 32px;
+    background-color:rgb(67, 82, 250);
+    color:white;
+    font-family:ggsansmedium;
+    font-size:2.8vh;
+    border-radius:5vh;
+    border:none;
+    height:56px;
+    text-align: center;
+  }
+  .bottomdiv-2 button img{
+    width:3.5vh;
+  }
+  .bottomdiv-1 h2{
+    font-family:ggsansbold;
+    font-size:5vh;
+  }
+  .footerdiv{
+    padding-left:7vh;
+  padding-right:7vh;
+  width:130vh;
+  }
+  .footer1{
+  
+    display:grid;
+    grid-template-columns:3fr 2fr 2fr;
+    border-bottom: 1px solid rgb(67, 82, 250);
+    padding-bottom: 10vh;
+  }
+  .footer1-2{
+    padding-bottom:10vh;
+  }
+}
