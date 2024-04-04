@@ -1,30 +1,67 @@
 .body-home{
-  height:90vh;
   background-color:rgb(67, 82, 250);
+  padding-top:15vh;
+  padding-bottom:25vh;
+}
+.navbar {
+  background-color: rgb(67, 82, 250);
+}
+.navbar-brand img {
+  width: 124px;
+}
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+.loginbutton button {
+  padding: 7px 16px;
+  background-color: white;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+.loginbutton button:hover {
+  color: rgb(88, 101, 242);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.section2img {
+  max-width: 100%;
+  height: auto;
 }
 .navbar{
-  display:flex;
-  justify-content: space-between;
   background-color:rgb(67, 82, 250);
-  margin-left:7vh;
-  margin-right:7vh;
   font-family: 'ggsanssemibold';
   height:80px;
 }
-.navbar div{
-  width:124px;
-  text-align: end;
+.navbar .navcontainer{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
 }
 .navbar-nav li a{
   color:white;
+  margin: 0 10px;
   padding:10px;
-  margin:0px 10px;
+}
+.navbar-toggler{
+  border:none;
+}
+.navbar-nav > li > .dropdown-menu{
+  background-color: white;
+}
+.dropdown-menu-right{
+  background-color:white;
+  right:0px;
+  left: auto;
 }
 .navbar-nav li a:hover{
   text-decoration:underline;
   color:white;
 }
-.navbar img{
+.navbar-brand img{
   width:124px;
 }
 .loginbutton button{
@@ -39,13 +76,7 @@
   color:rgb(88,101,242);
   box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
-.loginbutton{
-  align-items: end;
-}
-.navbar-toggler{
-  border:none;
-  color:white;
-}
+
 #headdiv{
   height:60vh;
   margin-top:15vh;
@@ -81,7 +112,7 @@
 .detailpara p{
   font-family:ggsansnormal;
   color:white;
-  font-size:2.8vh;
+  font-size:4vh;
   margin:0 10px;
   text-align: center;
 }
@@ -130,6 +161,9 @@
 .buttonheader{
   margin-top:5vh;
 }
+.buttonheader button img{
+  width:4.5vh;
+}
 .buttonhead button img{
   width:3.5vh;
 }
@@ -141,16 +175,26 @@ a .opendiscord{
   margin-top: 20vh;
   
 }
+/*#section2 .col{
+  width:100%;
+}
+#section2 .col img{
+  width:100%;
+  height:auto;
+}*/
 #section3{
   margin-top: 25vh;
+  padding-top: 15vh;
+  padding-bottom:15vh;
   background-color: #ededed;
 }
 #section4{
-  margin-top: 30vh;
+  padding-top: 15vh;
+  padding-bottom:15vh;
 }
 #section5{
-  margin-top:15vh;
-  padding-top:20vh;
+  padding-top: 15vh;
+  padding-bottom:15vh;
   background-color: #ededed;
 }
 #footer{
@@ -241,6 +285,12 @@ a .opendiscord{
   text-align: center;
   margin-left:22vh;
   margin-right:22vh;
+}
+#section5 .divpara p{
+  background-color:#ededed ;
+}
+#section3 .divpara p{
+  background-color:#ededed;
 }
 .middlediv{
   width:auto;
@@ -333,7 +383,7 @@ footer{
   margin-bottom: 5vh;
 }
 
-.footer1-2 div{
+.footer1-2 p{
   margin:0 0 20px;
   color:rgb(67, 82, 250);
   font-weight: 500;
@@ -362,4 +412,20 @@ footer{
 #footer2 button:hover{
   background-color:rgb(91, 105, 252) ;
   color:white;
+}
+
+
+
+#footer2 .row {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+/* Vertically center the content */
+#footer2 .row .col-md-4 {
+  display: flex;
+  align-items: center;
+}
+.loginbutton {
+  text-align: right;
 }
